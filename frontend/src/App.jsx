@@ -1,5 +1,7 @@
 import { useEffect } from 'react'
 import './App.css'
+import AboutPage from './pages/About'
+import Homepage from './pages/Homepage'
 
 
 function App() {
@@ -16,7 +18,8 @@ useEffect(() => {
 
   return (
     <>
-      
+      <Homepage/>
+      <AboutPage/>
     </>
   )
 }
