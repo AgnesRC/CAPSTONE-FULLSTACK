@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import './App.css'
-import AboutPage from './pages/About'
+import AboutPage from './pages/AboutPage'
 import Homepage from './pages/Homepage'
 
 

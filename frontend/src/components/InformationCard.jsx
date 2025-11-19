@@ -1,4 +1,4 @@
-import profileImage from './assets/profile.jpeg'
+import profileImage from '../assets/profile.jpeg'
 
 
 export default function InformationCard () {
