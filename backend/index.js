@@ -24,6 +24,13 @@ app.post("/contact", async (req, res) => {
     }
   });
 
+app.get("/contact", async (req, res) => {
+    const messages = await Message.find();
+    res.json(messages);
+  });
+  
+
+
 app.listen(port, () => {
     console.log('Listening on port:' + port);
     connectDB()
