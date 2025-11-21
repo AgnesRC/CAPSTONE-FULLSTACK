@@ -1,6 +1,8 @@
 import express from "express";
 import cors from 'cors'
-import Message from "./models/Message.js";
+import messageRoutes from "./routes/messages.js"
+import projectRoutes from "./routes/projects.js"
+
 
 import "dotenv/config"
 import connectDB from "./db.js";
@@ -11,25 +13,13 @@ const port = 3000
 app.use(cors())
 app.use(express.json())
 
+app.use("/contact", messageRoutes)
+app.use("/projects", projectRoutes)
+
+
 app.get('/', (req, res) => {
     res.json('Hello from server')
 })
-
-app.post("/contact", async (req, res) => {
-    try {
-      const newMessage = await Message.create(req.body);
-      res.json(newMessage);
-    } catch (error) {
-      res.json(error.message);
-    }
-  });
-
-app.get("/contact", async (req, res) => {
-    const messages = await Message.find();
-    res.json(messages);
-  });
-  
-
 
 app.listen(port, () => {
     console.log('Listening on port:' + port);
