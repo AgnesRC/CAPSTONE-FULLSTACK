@@ -4,6 +4,7 @@ import ContactForm from "../components/ContactForm";
 import Footer from "../components/footer";
 import Header from "../components/Header";
 import InformationCard from "../components/InformationCard";
+import Projects from "../components/Projects";
 
 export default function Homepage() {
 
@@ -13,6 +14,7 @@ export default function Homepage() {
         <InformationCard/>
         <Footer/>
         <ContactForm/>
+        <Projects/>
         </>
     )
 }
