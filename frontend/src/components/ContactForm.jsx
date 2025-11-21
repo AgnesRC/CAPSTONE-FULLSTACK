@@ -11,8 +11,23 @@ export default function ContactForm() {
     console.log(form);
   }
 
+  async function handleSubmit(e) {
+    e.preventDefault();
+
+    const res = await fetch("http://localhost:3000/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(form),
+    });
+
+    const data = await res.json();
+    console.log(data);
+
+    setForm({ name: "", email: "", message: "" });
+  }
+
   return (
-    <form className="contact-form">
+    <form className="contact-form" onSubmit={handleSubmit}>
       <h2> Contact Me </h2>
       <input
         type="text"
