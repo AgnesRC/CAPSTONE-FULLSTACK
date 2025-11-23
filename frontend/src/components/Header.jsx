@@ -1,12 +1,23 @@
-export default function Header () {
-    return (
-        <header className="header">    
-{/* Change to Links eventually? */}
-          <nav className="nav">
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-          </nav>
-        </header>
-      );
+import { Link } from "react-router-dom";
+
+export default function Header() {
+  return (
+    <nav className="navbar">
+      <ul className="nav-links">
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/projects">Projects</Link>
+        </li>
+
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }

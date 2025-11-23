@@ -41,3 +41,10 @@ export default function Projects() {
 }
 
 // search for projects based on skills or apps used?
+// {
+//   "title": "Test Testing",
+//   "description": "A testable tested test",
+//   "image": "https://testimage.png",
+//   "github": "https://github.com/mytest",
+//   "techUsed": ["React", "MongoDB"]
+// }
