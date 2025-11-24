@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   color: aliceblue;
-  background-color: aqua;
+  background-color: #52AA8A;
   padding: 20px;
 }
 
@@ -18,3 +18,77 @@ img {
 }
 
 /* Footer */
+.socials {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: #52AA8A;
+  padding: 20px;
+}
+
+/* Projects */
+.project-grid {
+  text-align: center;
+}
+
+.link {
+  margin-bottom: 30px;
+}
+
+/* Resume */
+.resume {
+  max-width: 800px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.skills ul {
+  display: flex;
+  gap: 10px;
+}
+
+.skills li {
+  list-style: none;
+  background: #eee;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.edu {
+  margin-bottom: 10px;
+}
+
+.date {
+  color: #777;
+}
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #2BD9FE;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-form button:hover {
+  background: #3AAED8;
+  cursor: pointer;
+}
