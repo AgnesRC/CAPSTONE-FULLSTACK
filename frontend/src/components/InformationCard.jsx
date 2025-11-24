@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import profileImage from '../assets/profile.jpeg'
 
 
@@ -10,7 +11,9 @@ export default function InformationCard () {
             Hello. I am Agnes.
             I'm an interdisciplinary software engineer passionate about human-centered designs and systems.
             </p>
-            <button> View My Work </button>
+            <Link to="/projects">
+                <button> View My Work </button>
+            </Link>
             </section>
             <section>
             <img src={profileImage} className="profile-image" />
