@@ -3,18 +3,54 @@
   display: flex;
   justify-content: space-between;
   color: aliceblue;
-  background-color: #52AA8A;
+  background-color: #52AA5E;
   padding: 20px;
 }
 
-.information-card {
-  display: flex;
-
+.nav-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
 }
 
-img {
-  width: 500px;
-  height: 500px;
+.nav-link:hover {
+  color: #3AAED8;
+}
+
+/* Information Card */
+.information-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  gap: 40px;
+}
+
+.information-card p {
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+.information-card button {
+  padding: 12px 24px;
+  background: #2BD9FE;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+}
+
+.information-card button:hover {
+  background: #3AAED8;
+  cursor: pointer;
+}
+
+.profile-image {
+  width: 260px;
+  height: 260px;
+  border-radius: 10%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 170, 255, 0.4);
 }
 
 /* Footer */
@@ -22,8 +58,17 @@ img {
   display: flex;
   justify-content: space-between;
   color: aliceblue;
-  background-color: #52AA8A;
+  background-color: #52AA5E;
   padding: 20px;
+}
+
+.socials a {
+   text-decoration: none;
+   color: #fff;
+}
+
+.socials a:hover {
+  color: #3AAED8;
 }
 
 /* Projects */
@@ -33,6 +78,32 @@ img {
 
 .link {
   margin-bottom: 30px;
+}
+
+/* About Section */
+.about-container {
+  max-width: 750px;
+  margin: 80px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-container h1 {
+  font-size: 52px;
+  margin-bottom: 8px;
+}
+
+.about-container h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
 /* Resume */

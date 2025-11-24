@@ -1,13 +1,12 @@
-export default function About () {
-    return (
-        <>
-        <h1> Agnes Reed </h1>
-        <h3> Fullstack Engineer </h3>
-        <p>Email, LinkedIn Logo & Link</p>
-
-        <h4>About</h4>
-        <p> blah blah blah</p>
-
-        </>
-    )
+export default function About() {
+  return (
+    <>
+      <div className="about-container">
+        <h1>Agnes Reed</h1>
+        <h3>Software Engineer</h3>
+        <br/>
+        <p className="about-text">blah blah blah</p>
+      </div>
+    </>
+  );
 }
