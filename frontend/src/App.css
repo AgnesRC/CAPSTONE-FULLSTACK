@@ -1,0 +1,20 @@
+/* Header */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: aqua;
+  padding: 20px;
+}
+
+.information-card {
+  display: flex;
+
+}
+
+img {
+  width: 500px;
+  height: 500px;
+}
+
+/* Footer */
