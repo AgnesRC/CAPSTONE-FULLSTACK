@@ -83,7 +83,6 @@
 /* About Section */
 .about-container {
   max-width: 750px;
-  margin: 80px auto;
   text-align: center;
   padding: 20px;
 }
@@ -128,9 +127,19 @@
   margin-bottom: 10px;
 }
 
-.date {
-  color: #777;
+.edu h4 {
+  font-weight: 500;
 }
+
+.job h4 {
+  margin-bottom: 5px;
+  font-size: medium;
+}
+
+.date {
+margin-top: 0px;
+}
+
 /* Contact Form */
 .contact-form {
   max-width: 500px;

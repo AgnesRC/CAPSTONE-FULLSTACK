@@ -25,9 +25,9 @@ export default function Resume() {
             <h4>
               {job.role} — {job.company}
             </h4>
-            <span className="date">
+            <p className="date">
               {job.start} – {job.end}
-            </span>
+            </p>
             <ul>
               {job.details.map((detail, index) => (
                 <li key={index}>{detail}</li>
@@ -41,9 +41,8 @@ export default function Resume() {
         {education.map((edu, index) => (
           <div key={index} className="edu">
             <h4>
-              {edu.degree} — {edu.school}
+              {edu.degree} - {edu.school}, {edu.year}
             </h4>
-            <span className="date">{edu.year}</span>
           </div>
         ))}
       </section>
