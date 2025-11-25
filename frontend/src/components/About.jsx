@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom'
+
 export default function About() {
   return (
     <>
@@ -10,6 +12,9 @@ export default function About() {
         I’ve been honing my skills in full-stack web development—building user interfaces and applications using JavaScript, React, Node.js, Express, and MongoDB. In addition to my technical training, my educational background in psychology and user experience has deepened my understanding of user behavior and fueled my passion for building human-centered systems. 
         I’m now actively seeking entry-level software engineering roles, where I can combine my technical skills and user-focused approach to create impactful solutions.
         </p>
+        <Link to="/projects">
+          <button> View My Work </button>
+        </Link>
       </div>
     </>
   );

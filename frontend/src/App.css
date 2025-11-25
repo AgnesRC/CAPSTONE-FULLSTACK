@@ -76,6 +76,13 @@
   text-align: center;
 }
 
+.project-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+  box-shadow: 0 4px 15px rgba(0, 170, 255, 0.4);
+}
+
 .link {
   margin-bottom: 30px;
 }
@@ -96,6 +103,21 @@
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 20px;
+}
+
+.about-container button {
+  padding: 12px 24px;
+  background: #2BD9FE;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.about-container button:hover {
+  background: #3AAED8;
+  cursor: pointer;
 }
 
 .about-text {

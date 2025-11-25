@@ -1,5 +1,4 @@
 import data from '../data/resumeData'
-
 export default function Resume() {
   const {
     skills,
