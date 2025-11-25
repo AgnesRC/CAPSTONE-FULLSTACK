@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+
 export default function ContactForm() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
@@ -13,8 +14,7 @@ export default function ContactForm() {
 
   async function handleSubmit(e) {
     e.preventDefault();
-
-    const res = await fetch("http://localhost:3000/contact", {
+    const res = await fetch(`http://localhost:3000/contact`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form),

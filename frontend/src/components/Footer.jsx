@@ -3,8 +3,8 @@ export default function Footer () {
         <footer className="footer">
           <div className="socials">
             <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-            <a href="mailto:someone@example.com">Email</a>
+            <a href="linkedin.com/in/agnes-reed" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="mailto:ar4311@tc.columbia.edu">Email</a>
           </div>
     
         </footer>
