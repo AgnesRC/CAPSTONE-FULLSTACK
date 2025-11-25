@@ -2,7 +2,6 @@
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  color: aliceblue;
   background-color: #52AA5E;
   padding: 20px;
   width: 100%;
@@ -15,7 +14,7 @@
 }
 
 .nav-link:hover {
-  color: #3AAED8;
+  background: #52AA8A;
 }
 
 /* Information Card */
@@ -34,7 +33,7 @@
 
 .information-card button {
   padding: 12px 24px;
-  background: #2BD9FE;
+  background: #388659;
   border: none;
   border-radius: 8px;
   color: white;
@@ -42,7 +41,7 @@
 }
 
 .information-card button:hover {
-  background: #3AAED8;
+  background: #52AA8A;
   cursor: pointer;
 }
 
@@ -51,7 +50,7 @@
   height: 260px;
   border-radius: 10%;
   object-fit: cover;
-  box-shadow: 0 4px 15px rgba(0, 170, 255, 0.4);
+  box-shadow: 0 4px 10px #2BD9FE;
 }
 
 /* Footer */
@@ -71,7 +70,7 @@
 }
 
 .socials a:hover {
-  color: #3AAED8;
+  background: #52AA8A;
 }
 
 /* Projects */
@@ -130,7 +129,7 @@
 .link a {
   display: inline-block;
   padding: 8px 14px;
-  background: #2BD9FE;
+  background: #388659;
   color: white;
   border-radius: 6px;
   text-decoration: none;
@@ -139,7 +138,7 @@
 }
 
 .link a:hover {
-  background: #3AAED8;
+  background: #52AA8A;
 }
 
 
@@ -163,7 +162,7 @@
 
 .about-container button {
   padding: 12px 24px;
-  background: #2BD9FE;
+  background: #388659;
   border: none;
   border-radius: 8px;
   color: white;
@@ -172,7 +171,7 @@
 }
 
 .about-container button:hover {
-  background: #3AAED8;
+  background: #52AA8A;
   cursor: pointer;
 }
 
@@ -240,13 +239,13 @@ margin-top: 0px;
 
 .contact-form button {
   padding: 10px;
-  background: #2BD9FE;
+  background: #388659;
   color: #fff;
   border: none;
   border-radius: 4px;
 }
 
 .contact-form button:hover {
-  background: #3AAED8;
+  background: #52AA8A;
   cursor: pointer;
 }
