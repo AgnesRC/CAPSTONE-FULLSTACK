@@ -12,5 +12,3 @@ export default function Homepage() {
         </>
     )
 }
-
-// projects carousel like the cat lab?

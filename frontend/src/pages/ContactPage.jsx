@@ -1,5 +1,5 @@
 import ContactForm from "../components/ContactForm";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 export default function ContactPage() {

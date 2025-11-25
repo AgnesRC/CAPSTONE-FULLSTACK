@@ -6,12 +6,13 @@ import ContactPage from './pages/ContactPage'
 import Homepage from './pages/Homepage'
 import ProjectsPage from './pages/ProjectsPage'
 
+export const BASE_URL = import.meta.env.VITE_BASE_URL;
 
 function App() {
 
 useEffect(() => {
   async function test() {
-    const response = await fetch(`http://localhost:3000`)
+    const response = await fetch(`${BASE_URL}`)
     const result = await response.json()
     console.log(result);
   }

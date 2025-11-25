@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-
+import { BASE_URL } from "../App";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
     async function getProjects() {
-     const res = await fetch(`http://localhost:3000/projects`);  
+     const res = await fetch(`${BASE_URL}/projects`);  
       const data = await res.json();
       setProjects(data);
     }
